@@ -1,0 +1,83 @@
+.parcel-details {
+    position: absolute;
+    left: 2%;
+    bottom: 5%;
+    background: #2f364073;
+    height: 50%;
+    width: 30%;
+    border-radius: 10px;
+    padding: 3px;
+    z-index: 10;
+}
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color:rgba(0, 0, 0, 0);
+    position: absolute;
+    z-index: 10;
+    left: 10px;
+}
+.searchbox{
+    position:relative;
+    min-width:200px;
+    width:0%;
+    height:50px;
+    float:left;
+    
+}
+.searchbox-input{
+    top:0;
+    right:0;
+    border:0;
+    outline:0;
+    background:#212121;
+    width:100%;
+    height:50px;
+    margin:0;
+    padding:0px 55px 0px 20px;
+    font-size:20px;
+    color:#ff4e4e;
+}
+.searchbox-input::-webkit-input-placeholder {
+    color: #d74b4b;
+}
+.searchbox-input:-moz-placeholder {
+    color: #d74b4b;
+}
+.searchbox-input::-moz-placeholder {
+    color: #d74b4b;
+}
+.searchbox-input:-ms-input-placeholder {
+    color: #d74b4b;
+}
+.searchbox-icon,
+.searchbox-submit{
+    width:50px;
+    height:50px;
+    display:block;
+    position:absolute;
+    top:0;
+    font-family:verdana;
+    font-size:22px;
+    right:0;
+    padding:0;
+    margin:0;
+    border:0;
+    outline:0;
+    line-height:50px;
+    text-align:center;
+    cursor:pointer;
+    color:#fff;
+    background:#172b3c;
+    border-left: 1px solid white;
+}
+
+
+.custom-map-control-button{
+    width: 40px;
+    height: 40px;
+	right:10px!important;
+	top:160px!important;
+	background-color: #fff;
+	border: none;
+}
